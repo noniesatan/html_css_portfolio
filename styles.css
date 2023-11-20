@@ -58,6 +58,7 @@ a:hover{
 }
 .logo:hover{
     cursor: default;
+    color: black;
 }
 /* Hambuger */
 #hambuger-nav{
