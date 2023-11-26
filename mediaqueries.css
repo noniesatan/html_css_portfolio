@@ -7,6 +7,10 @@
     .about-containers{
         flex-wrap: wrap;
     }
+    .title{
+        font-size: 2rem;
+        text-align: center;
+    }
 
 }
   
@@ -48,6 +52,10 @@
     }
     .section_text_p2_move{
         font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+        text-align: center;
     }
 }
 @media  screen and (max-width: 600px) {
@@ -103,14 +111,12 @@
     }
     .title{
         font-size: 2rem;
+        text-align: center;
     }
     .text-container{
         text-align: justify;
     }
-    .title{
-        font-size: 1.5rem;
-        text-align: center;
-
+   
 }
 
 
