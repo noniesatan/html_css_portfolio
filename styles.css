@@ -171,7 +171,7 @@ a:hover{
     font-size: 1.75rem;
     margin-bottom: 1rem;
     letter-spacing: 2px;
-    font-family: monospace;
+    font-family: "poppins",sans-serif;
     border-right: 5px solid;
     width: 100%;
     white-space: nowrap;
