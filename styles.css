@@ -177,37 +177,13 @@ a:hover{
     white-space: nowrap;
     overflow: hidden;
     animation: 
-        typing 2s steps(35),
+        typing 6s steps(45) infinite,
         cursor .6s step-end alternate infinite;
     animation-delay: 1s;
     
     
     
 }
-
-@keyframes loopAnimation {
-    0%, 100% {
-        /* Start and end state, no typing or cursor animation */
-        width: 100%;
-        border-right: none;
-        animation: none;
-    }
-
-    20%, 50% {
-        /* Typing animation */
-        width: 100%;
-        border-right: 5px solid;
-        animation: typing 2s steps(35);
-    }
-
-    70%, 90% {
-        /* Cursor animation */
-        width: 100%;
-        border-right: 5px solid;
-        animation: cursor .6s step-end;
-    }
-} 
-    
 
 .title{
     font-size: 3rem;
@@ -225,11 +201,15 @@ a:hover{
     50% { border-color: transparent;}
 }
 /* TYPING EFFECT */
-@keyframes typing{
-    from {width:0}
-    
-}
 
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
 
 #socials-container{
     display: flex;
